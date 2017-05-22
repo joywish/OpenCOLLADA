@@ -83,8 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <PreBuildEvent>
-      <Command>if not exist ..\obj\$(Configuration) mkdir ..\obj\$(Configuration)
-if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
+      <Command>
 </Command>
     </PreBuildEvent>
     <ClCompile>
@@ -103,7 +102,7 @@ if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
       <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
     </Lib>
     <PostBuildEvent>
-      <Command>copy /y "$(TargetPath)" ..\bin\$(Configuration)\</Command>
+      <Command></Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
@@ -111,8 +110,7 @@ if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <PreBuildEvent>
-      <Command>if not exist ..\obj\$(Configuration) mkdir ..\obj\$(Configuration)
-if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
+      <Command>
 </Command>
     </PreBuildEvent>
     <Midl>
@@ -134,7 +132,7 @@ if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
       <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
     </Lib>
     <PostBuildEvent>
-      <Command>copy /y "$(TargetPath)" ..\bin\$(Configuration)\</Command>
+      <Command></Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
@@ -142,8 +140,7 @@ if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <PreBuildEvent>
-      <Command>if not exist ..\obj\$(Configuration) mkdir ..\obj\$(Configuration)
-if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
+      <Command>
 </Command>
     </PreBuildEvent>
     <ClCompile>
@@ -160,7 +157,7 @@ if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
       <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
     </Lib>
     <PostBuildEvent>
-      <Command>copy /y "$(TargetPath)" ..\bin\$(Configuration)\</Command>
+      <Command>\</Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
@@ -168,8 +165,7 @@ if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <PreBuildEvent>
-      <Command>if not exist ..\obj\$(Configuration) mkdir ..\obj\$(Configuration)
-if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
+      <Command>
 </Command>
     </PreBuildEvent>
     <Midl>
@@ -189,7 +185,7 @@ if not exist ..\bin\$(Configuration) mkdir ..\bin\$(Configuration)
       <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
     </Lib>
     <PostBuildEvent>
-      <Command>copy /y "$(TargetPath)" ..\bin\$(Configuration)\</Command>
+      <Command></Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
