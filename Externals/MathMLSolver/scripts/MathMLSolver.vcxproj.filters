@@ -6,14 +6,14 @@
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Source Files\ast">
-      <UniqueIdentifier>{de1d3a97-c265-47ee-8ad7-f9f946e3322a}</UniqueIdentifier>
+      <UniqueIdentifier>{49d90297-b488-4fa6-b8b3-fe05f6c5ff95}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Header Files\ast">
-      <UniqueIdentifier>{02bb44d9-e041-4cb6-b0c4-b57f9a966936}</UniqueIdentifier>
+      <UniqueIdentifier>{d26efddc-702d-4937-99ec-d882e9f5a67e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

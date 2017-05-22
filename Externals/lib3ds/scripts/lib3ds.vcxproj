@@ -1,0 +1,304 @@
+<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="MinSizeRel|Win32">
+			<Configuration>MinSizeRel</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="RelWithDebInfo|Win32">
+			<Configuration>RelWithDebInfo</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{B47CB783-E637-4F3C-A07F-3534ADECD6A7}</ProjectGuid>
+		<Keyword>Win32Proj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+		<ConfigurationType>DynamicLibrary</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<UseOfMfc>false</UseOfMfc>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+		<ConfigurationType>DynamicLibrary</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<UseOfMfc>false</UseOfMfc>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>DynamicLibrary</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<UseOfMfc>false</UseOfMfc>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>DynamicLibrary</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<UseOfMfc>false</UseOfMfc>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+	<ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<LinkIncremental>true</LinkIncremental>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<LinkIncremental>true</LinkIncremental>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<Midl>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;Debug&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MkTypLibCompatible>false</MkTypLibCompatible>
+			<TargetEnvironment>Win32</TargetEnvironment>
+			<GenerateStublessProxies>true</GenerateStublessProxies>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<OutputDirectory>$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<DllDataFileName/>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<ClCompile>
+			<AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>Disabled</Optimization>
+			<InlineFunctionExpansion>Default</InlineFunctionExpansion>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;LIB3DS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ExceptionHandling/>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<AssemblerListingLocation/>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+			<ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+			<WarningLevel>Level3</WarningLevel>
+			<DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+			<CompileAs>CompileAsCpp</CompileAs>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;Debug&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+		</ResourceCompile>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+		<Link>
+			<AdditionalOptions> /STACK:10000000 /machine:I386 /debug %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies/>
+			<OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+			<Version>2.0</Version>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+			<ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+		</Link>
+		<BuildLog>
+			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<Midl>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;Release&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MkTypLibCompatible>false</MkTypLibCompatible>
+			<TargetEnvironment>Win32</TargetEnvironment>
+			<GenerateStublessProxies>true</GenerateStublessProxies>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<OutputDirectory>$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<DllDataFileName/>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<ClCompile>
+			<AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>MaxSpeed</Optimization>
+			<InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ExceptionHandling/>
+			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+			<AssemblerListingLocation/>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+			<ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+			<WarningLevel>Level3</WarningLevel>
+			<CompileAs>CompileAsCpp</CompileAs>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;Release&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+		</ResourceCompile>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+		<Link>
+			<AdditionalOptions> /STACK:10000000 /machine:I386 %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies/>
+			<OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+			<Version>2.0</Version>
+			<ProgramDatabaseFile/>
+			<ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+		</Link>
+		<BuildLog>
+			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+		<Midl>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;MinSizeRel&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MkTypLibCompatible>false</MkTypLibCompatible>
+			<TargetEnvironment>Win32</TargetEnvironment>
+			<GenerateStublessProxies>true</GenerateStublessProxies>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<OutputDirectory>$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<DllDataFileName/>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<ClCompile>
+			<AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>MinSpace</Optimization>
+			<InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ExceptionHandling/>
+			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+			<AssemblerListingLocation/>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+			<ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+			<WarningLevel>Level3</WarningLevel>
+			<CompileAs>CompileAsCpp</CompileAs>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;MinSizeRel&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+		</ResourceCompile>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+		<Link>
+			<AdditionalOptions> /STACK:10000000 /machine:I386 %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies/>
+			<OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+			<Version>2.0</Version>
+			<ProgramDatabaseFile/>
+			<ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+		</Link>
+		<BuildLog>
+			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+		<Midl>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;RelWithDebInfo&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MkTypLibCompatible>false</MkTypLibCompatible>
+			<TargetEnvironment>Win32</TargetEnvironment>
+			<GenerateStublessProxies>true</GenerateStublessProxies>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<OutputDirectory>$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<DllDataFileName/>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<ClCompile>
+			<AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>MaxSpeed</Optimization>
+			<InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ExceptionHandling/>
+			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+			<AssemblerListingLocation/>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+			<ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+			<WarningLevel>Level3</WarningLevel>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<CompileAs>CompileAsCpp</CompileAs>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB3DS_EXPORTS;CMAKE_INTDIR=&quot;RelWithDebInfo&quot;;lib3ds_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+		</ResourceCompile>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+		<Link>
+			<AdditionalOptions> /STACK:10000000 /machine:I386 /debug %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies/>
+			<OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+			<Version>2.0</Version>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+			<ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+		</Link>
+		<BuildLog>
+			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ResourceCompile Include="..\src\lib3ds.rc"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\src\lib3ds_atmosphere.c"/>
+		<ClCompile Include="..\src\lib3ds_background.c"/>
+		<ClCompile Include="..\src\lib3ds_camera.c"/>
+		<ClCompile Include="..\src\lib3ds_chunk.c"/>
+		<ClCompile Include="..\src\lib3ds_chunktable.c"/>
+		<ClCompile Include="..\src\lib3ds_file.c"/>
+		<ClCompile Include="..\src\lib3ds_io.c"/>
+		<ClCompile Include="..\src\lib3ds_light.c"/>
+		<ClCompile Include="..\src\lib3ds_material.c"/>
+		<ClCompile Include="..\src\lib3ds_math.c"/>
+		<ClCompile Include="..\src\lib3ds_matrix.c"/>
+		<ClCompile Include="..\src\lib3ds_mesh.c"/>
+		<ClCompile Include="..\src\lib3ds_node.c"/>
+		<ClCompile Include="..\src\lib3ds_quat.c"/>
+		<ClCompile Include="..\src\lib3ds_shadow.c"/>
+		<ClCompile Include="..\src\lib3ds_track.c"/>
+		<ClCompile Include="..\src\lib3ds_util.c"/>
+		<ClCompile Include="..\src\lib3ds_vector.c"/>
+		<ClCompile Include="..\src\lib3ds_viewport.c"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\src\lib3ds.h"/>
+		<ClInclude Include="..\src\lib3ds_impl.h"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Text Include="..\src\CMakeLists.txt"/>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+	<ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

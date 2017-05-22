@@ -10,7 +10,7 @@
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Public Header Files">
-      <UniqueIdentifier>{ca1207f1-b93b-4a33-ae94-dfa63bdba353}</UniqueIdentifier>
+      <UniqueIdentifier>{c8725de6-d831-470b-852e-458e8816bcb0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
