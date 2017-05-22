@@ -65,20 +65,20 @@
 		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v100|Win32'">
 		<ClCompile>

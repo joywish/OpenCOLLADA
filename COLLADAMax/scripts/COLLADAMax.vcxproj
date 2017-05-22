@@ -817,387 +817,387 @@
 		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2011_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2011_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2011|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2011|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2011_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2011_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2011|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2011|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 		<PreLinkEventUseInBuild>false</PreLinkEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2012|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2012|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2012_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2012_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2012|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2012|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2012_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2012_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2013|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014_SP5|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2015|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2016|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2017|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2013|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014_SP5|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2015|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2016|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2017|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2013_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014_SP5_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2015_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2016_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2017_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2013_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2014_SP5_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2015_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2016_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Max2017_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2013|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014_SP5|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2015|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2016|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2017|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2013|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014_SP5|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2015|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2016|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2017|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2013_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014_SP5_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2015_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2016_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2017_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2013_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2014_SP5_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2015_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2016_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Max2017_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
 	</PropertyGroup>

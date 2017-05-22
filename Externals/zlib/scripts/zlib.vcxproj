@@ -731,216 +731,216 @@
 		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL ASM Debug|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL ASM Debug|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB ASM Debug|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB ASM Debug|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL ASM Release|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL ASM Release|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v110|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v140|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v100|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v90|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v110|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v140|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v100|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_v90|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v90|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v100|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v110|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v140|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v90|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v100|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v110|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_v140|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB ASM Release|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB ASM Release|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v90|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v100|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v110|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v149|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v90|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v100|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v110|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static_v149|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v90|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v100|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v110|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v140|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v90|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v100|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v110|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static_v140|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).win32\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).win32\</IntDir>
+		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL ASM Debug|Win32'">
 		<ClCompile>

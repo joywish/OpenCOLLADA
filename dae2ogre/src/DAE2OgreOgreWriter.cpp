@@ -25,6 +25,9 @@ http://www.opensource.org/licenses/mit-license.php
 #include <iostream>
 
 
+using namespace COLLADAFW;
+using namespace COLLADASaxFWL;
+
 namespace DAE2Ogre
 {
 
@@ -68,8 +71,9 @@ namespace DAE2Ogre
 	//--------------------------------------------------------------------
 	bool OgreWriter::write()
 	{
-		COLLADASaxFWL::Loader loader;
-		COLLADAFW::Root root(&loader, this);
+		//GeneratedSaxParser::CoutErrorHandler handler;
+		Loader* loader = new Loader();
+		Root root(loader, this);
 
 		// Load scene graph 
 		if ( !root.loadDocument(mInputFile.toNativePath()) )
@@ -84,9 +88,12 @@ namespace DAE2Ogre
 
 		// load and write geometries
 		mCurrentRun = GEOMETRY_RUN;
-		if ( !root.loadDocument(mInputFile.toNativePath()) )
+		if (!root.loadDocument(mInputFile.toNativePath()))
+		{
+			delete loader;
 			return false;
-
+		}
+		delete loader;
 		return true;
 	}
 

@@ -131,9 +131,6 @@
     <ClCompile Include="..\src\COLLADASaxFWLLibraryNodesLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\COLLADASaxFWLLoader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\COLLADASaxFWLMeshLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -343,6 +340,9 @@
     </ClCompile>
     <ClCompile Include="..\src\generated15\COLLADASaxFWLVisualSceneLoader15.cpp">
       <Filter>Source Files\generated 1.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\COLLADASaxFWLLoader.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
