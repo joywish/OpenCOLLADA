@@ -110,7 +110,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
@@ -151,7 +151,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>
@@ -181,7 +181,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
@@ -221,7 +221,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>
