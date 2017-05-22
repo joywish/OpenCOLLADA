@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -26,24 +26,24 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -70,6 +70,7 @@
     <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
@@ -81,6 +82,7 @@
     <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
     <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
@@ -108,27 +110,18 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib</AdditionalDependencies>
+      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>
-set runtimeDir="..\runtime\$(Configuration)"
-
-if not exist %25runtimeDir%25 (
-echo Creating plugin directory %25runtimeDir%25
-mkdir %25runtimeDir%25 &gt; nul
-)
-
-echo copy dae2ogre
-copy $(TargetPath) %25runtimeDir%25 &gt;nul
-</Command>
+      </Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
     </BuildLog>
     <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
     <ProjectReference>
       <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
@@ -158,19 +151,11 @@ copy $(TargetPath) %25runtimeDir%25 &gt;nul
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>
-set runtimeDir="..\runtime\$(Configuration)"
-
-if not exist %25runtimeDir%25 (
-echo Creating plugin directory %25runtimeDir%25
-mkdir %25runtimeDir%25 &gt; nul
-)
-
-echo copy dae2ogre
-copy $(TargetPath) %25runtimeDir%25 &gt;nul
-</Command>
+      </Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
@@ -196,21 +181,12 @@ copy $(TargetPath) %25runtimeDir%25 &gt;nul
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib</AdditionalDependencies>
+      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>
-set runtimeDir="..\runtime\$(Configuration)"
-
-if not exist %25runtimeDir%25 (
-echo Creating plugin directory %25runtimeDir%25
-mkdir %25runtimeDir%25 &gt; nul
-)
-
-echo copy dae2ogre
-copy $(TargetPath) %25runtimeDir%25 &gt;nul
-</Command>
+      </Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
@@ -245,19 +221,11 @@ copy $(TargetPath) %25runtimeDir%25 &gt;nul
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalDependencies>expat_static.lib;pcre.lib;MathMLSolver.lib;LibXML.lib;GeneratedSaxParser.lib;COLLADAFramework.lib;COLLADABaseUtils.lib;COLLADASaxFrameworkLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>
-set runtimeDir="..\runtime\$(Configuration)"
-
-if not exist %25runtimeDir%25 (
-echo Creating plugin directory %25runtimeDir%25
-mkdir %25runtimeDir%25 &gt; nul
-)
-
-echo copy dae2ogre
-copy $(TargetPath) %25runtimeDir%25 &gt;nul
-</Command>
+      </Command>
     </PostBuildEvent>
     <BuildLog>
       <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
