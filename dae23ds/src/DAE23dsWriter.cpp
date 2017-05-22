@@ -29,6 +29,7 @@
 
 #include "CommonFWriteBufferFlusher.h"
 #include "CommonCharacterBuffer.h"
+#include "Commonitoa.h"
 
 namespace DAE23ds
 {
