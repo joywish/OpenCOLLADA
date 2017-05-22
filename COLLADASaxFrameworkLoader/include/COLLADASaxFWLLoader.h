@@ -469,13 +469,12 @@ namespace COLLADASaxFWL
 		/** Returns the writer the data will be written to.*/
 		COLLADAFW::IWriter* writer(){ return mWriter; }
 
-
         /** Disable default copy ctor. */
 		Loader( const Loader& pre );
 
         /** Disable default assignment operator. */
 		const Loader& operator= ( const Loader& pre );
-
+		
 
 	};
 
