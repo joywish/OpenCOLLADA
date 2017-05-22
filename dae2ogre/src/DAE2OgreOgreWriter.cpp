@@ -72,8 +72,8 @@ namespace DAE2Ogre
 	bool OgreWriter::write()
 	{
 		//GeneratedSaxParser::CoutErrorHandler handler;
-		Loader* loader = new Loader();
-		Root root(loader, this);
+		Loader loader;
+		Root root(&loader, this);
 
 		// Load scene graph 
 		if ( !root.loadDocument(mInputFile.toNativePath()) )
@@ -90,10 +90,8 @@ namespace DAE2Ogre
 		mCurrentRun = GEOMETRY_RUN;
 		if (!root.loadDocument(mInputFile.toNativePath()))
 		{
-			delete loader;
 			return false;
 		}
-		delete loader;
 		return true;
 	}
 
