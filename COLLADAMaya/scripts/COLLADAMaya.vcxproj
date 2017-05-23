@@ -1,455 +1,455 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug|x64">
-      <Configuration>Debug</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
-      <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|x64">
-      <Configuration>Release</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-  </ItemGroup>
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>{60331F1F-2334-42AF-80A8-A4A6E3299186}</ProjectGuid>
-    <RootNamespace>COLLADAMaya</RootNamespace>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug|x64">
+			<Configuration>Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|x64">
+			<Configuration>Release</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{60331F1F-2334-42AF-80A8-A4A6E3299186}</ProjectGuid>
+		<RootNamespace>COLLADAMaya</RootNamespace>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>DynamicLibrary</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+		<ConfigurationType>DynamicLibrary</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+	<ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
-  </ImportGroup>
-  <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-    <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
-    <LinkIncremental>true</LinkIncremental>
-    <GenerateManifest>true</GenerateManifest>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-    <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
-    <LinkIncremental>true</LinkIncremental>
-    <GenerateManifest>true</GenerateManifest>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-    <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
-    <LinkIncremental>false</LinkIncremental>
-    <GenerateManifest>true</GenerateManifest>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-    <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
-    <LinkIncremental>false</LinkIncremental>
-    <GenerateManifest>true</GenerateManifest>
-  </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <PreBuildEvent>
-      <Command>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<LinkIncremental>true</LinkIncremental>
+		<GenerateManifest>true</GenerateManifest>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<LinkIncremental>true</LinkIncremental>
+		<GenerateManifest>true</GenerateManifest>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+		<GenerateManifest>true</GenerateManifest>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+		<GenerateManifest>true</GenerateManifest>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<PreBuildEvent>
+			<Command>
       </Command>
-    </PreBuildEvent>
-    <ClCompile>
-      <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011)\include;$(MAYA_PATH2011)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;MLIBRARY_DONTUSE_MFC_MANIFEST;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE</PreprocessorDefinitions>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
-      <Version>1.3</Version>
-      <AdditionalLibraryDirectories>$(MAYA_PATH2011)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <LinkTimeCodeGeneration />
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <DataExecutionPrevention />
-    </Link>
-    <PostBuildEvent>
-      <Message>Copying plugin to Maya install</Message>
-      <Command>if not exist "..\bin\win\$(Platform)\$(Configuration)" (
+		</PreBuildEvent>
+		<ClCompile>
+			<Optimization>Disabled</Optimization>
+			<AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011)\include;$(MAYA_PATH2011)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;MLIBRARY_DONTUSE_MFC_MANIFEST;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE</PreprocessorDefinitions>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<PrecompiledHeader>Use</PrecompiledHeader>
+			<PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
+			<WarningLevel>Level3</WarningLevel>
+			<DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+		</ClCompile>
+		<Link>
+			<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			<OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
+			<Version>1.3</Version>
+			<AdditionalLibraryDirectories>$(MAYA_PATH2011)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<LinkTimeCodeGeneration/>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention/>
+		</Link>
+		<PostBuildEvent>
+			<Message>Copying plugin to Maya install</Message>
+			<Command>if not exist &quot;..\bin\win\$(Platform)\$(Configuration)&quot; (
 echo Creating ..\bin\win\$(Platform)\$(Configuration)
-mkdir "..\bin\win\$(Platform)\$(Configuration)" &gt; nul
+mkdir &quot;..\bin\win\$(Platform)\$(Configuration)&quot; &gt; nul
 )
 
 copy $(TargetPath) ..\bin\win\$(Platform)\$(Configuration)
 
-if not exist "%25MAYA_PATH2011%25\bin\plug-ins" (
-echo Creating "%25MAYA_PATH2011%25\bin\plug-ins"
-mkdir "%25MAYA_PATH2011%25\bin\plug-ins" &gt; nul
+if not exist &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot; (
+echo Creating &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot;
+mkdir &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot; &gt; nul
 )
 
-copy "$(TargetDir)\COLLADAMaya.mll" "%25MAYA_PATH2011%25\bin\plug-ins"
+copy &quot;$(TargetDir)\COLLADAMaya.mll&quot; &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot;
 
-if not exist "%25MAYA_PATH2011%25\scripts\others" (
-echo Creating "%25MAYA_PATH2011%25\scripts\others"
-mkdir "%25MAYA_PATH2011%25\scripts\others" &gt; nul
+if not exist &quot;%25MAYA_PATH2011%25\scripts\others&quot; (
+echo Creating &quot;%25MAYA_PATH2011%25\scripts\others&quot;
+mkdir &quot;%25MAYA_PATH2011%25\scripts\others&quot; &gt; nul
 )
 
-copy "$(ProjectDir)*.mel" "%25MAYA_PATH2011%25\scripts\others"
+copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011%25\scripts\others&quot;
 </Command>
-    </PostBuildEvent>
-    <BuildLog>
-      <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
-    </BuildLog>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <PreBuildEvent>
-      <Command>
+		</PostBuildEvent>
+		<BuildLog>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<PreBuildEvent>
+			<Command>
       </Command>
-    </PreBuildEvent>
-    <Midl>
-      <TargetEnvironment>X64</TargetEnvironment>
-    </Midl>
-    <ClCompile>
-      <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011_X64)\include;$(MAYA_PATH2011_X64)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLIBRARY_DONTUSE_MFC_MANIFEST</PreprocessorDefinitions>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
-      <Version>1.3</Version>
-      <AdditionalLibraryDirectories>$(MAYA_PATH2011_X64)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <IgnoreSpecificDefaultLibraries>msvcrt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <DataExecutionPrevention />
-      <TargetMachine>MachineX64</TargetMachine>
-    </Link>
-    <PostBuildEvent>
-      <Message>Copying plugin to Maya install</Message>
-      <Command>if not exist "..\bin\win\$(Platform)\$(Configuration)" (
+		</PreBuildEvent>
+		<Midl>
+			<TargetEnvironment>X64</TargetEnvironment>
+		</Midl>
+		<ClCompile>
+			<Optimization>Disabled</Optimization>
+			<AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011_X64)\include;$(MAYA_PATH2011_X64)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLIBRARY_DONTUSE_MFC_MANIFEST</PreprocessorDefinitions>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<PrecompiledHeader>Use</PrecompiledHeader>
+			<PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
+			<WarningLevel>Level3</WarningLevel>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+		</ClCompile>
+		<Link>
+			<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			<OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
+			<Version>1.3</Version>
+			<AdditionalLibraryDirectories>$(MAYA_PATH2011_X64)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<IgnoreSpecificDefaultLibraries>msvcrt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention/>
+			<TargetMachine>MachineX64</TargetMachine>
+		</Link>
+		<PostBuildEvent>
+			<Message>Copying plugin to Maya install</Message>
+			<Command>if not exist &quot;..\bin\win\$(Platform)\$(Configuration)&quot; (
 echo Creating ..\bin\win\$(Platform)\$(Configuration)
-mkdir "..\bin\win\$(Platform)\$(Configuration)" &gt; nul
+mkdir &quot;..\bin\win\$(Platform)\$(Configuration)&quot; &gt; nul
 )
 
 copy $(TargetPath) ..\bin\win\$(Platform)\$(Configuration)
 
-if not exist "%25MAYA_PATH2011_X64%25\bin\plug-ins" (
-echo Creating "%25MAYA_PATH2011_X64%25\bin\plug-ins"
-mkdir "%25MAYA_PATH2011_X64%25\bin\plug-ins" &gt; nul
+if not exist &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot; (
+echo Creating &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot;
+mkdir &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot; &gt; nul
 )
 
-copy "$(TargetDir)\COLLADAMaya.mll" "%25MAYA_PATH2011_X64%25\bin\plug-ins"
+copy &quot;$(TargetDir)\COLLADAMaya.mll&quot; &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot;
 
-if not exist "%25MAYA_PATH2011_X64%25\scripts\others" (
-echo Creating "%25MAYA_PATH2011_X64%25\scripts\others"
-mkdir "%25MAYA_PATH2011_X64%25\scripts\others" &gt; nul
+if not exist &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot; (
+echo Creating &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot;
+mkdir &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot; &gt; nul
 )
 
-copy "$(ProjectDir)*.mel" "%25MAYA_PATH2011_X64%25\scripts\others"
+copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot;
 </Command>
-    </PostBuildEvent>
-    <BuildLog>
-      <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
-    </BuildLog>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <PreBuildEvent>
-      <Command>
+		</PostBuildEvent>
+		<BuildLog>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<PreBuildEvent>
+			<Command>
       </Command>
-    </PreBuildEvent>
-    <ClCompile>
-      <Optimization>MaxSpeed</Optimization>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011)\include;$(MAYA_PATH2011)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;MLIBRARY_DONTUSE_MFC_MANIFEST;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <FunctionLevelLinking>false</FunctionLevelLinking>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
-      <WarningLevel>Level3</WarningLevel>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
-      <Version>1.3</Version>
-      <AdditionalLibraryDirectories>$(MAYA_PATH2011)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
-      <SubSystem>Windows</SubSystem>
-      <OptimizeReferences>false</OptimizeReferences>
-      <EnableCOMDATFolding>false</EnableCOMDATFolding>
-      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
-      <EntryPointSymbol />
-      <NoEntryPoint>false</NoEntryPoint>
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <DataExecutionPrevention />
-      <TargetMachine>MachineX86</TargetMachine>
-    </Link>
-    <PostBuildEvent>
-      <Message>Copying plugin to Maya install</Message>
-      <Command>if not exist "..\bin\win\$(Platform)\$(Configuration)" (
+		</PreBuildEvent>
+		<ClCompile>
+			<Optimization>MaxSpeed</Optimization>
+			<InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+			<WholeProgramOptimization>true</WholeProgramOptimization>
+			<AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011)\include;$(MAYA_PATH2011)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;MLIBRARY_DONTUSE_MFC_MANIFEST;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<FunctionLevelLinking>false</FunctionLevelLinking>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<PrecompiledHeader>Use</PrecompiledHeader>
+			<PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
+			<WarningLevel>Level3</WarningLevel>
+		</ClCompile>
+		<Link>
+			<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			<OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
+			<Version>1.3</Version>
+			<AdditionalLibraryDirectories>$(MAYA_PATH2011)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+			<SubSystem>Windows</SubSystem>
+			<OptimizeReferences>false</OptimizeReferences>
+			<EnableCOMDATFolding>false</EnableCOMDATFolding>
+			<LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+			<EntryPointSymbol/>
+			<NoEntryPoint>false</NoEntryPoint>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention/>
+			<TargetMachine>MachineX86</TargetMachine>
+		</Link>
+		<PostBuildEvent>
+			<Message>Copying plugin to Maya install</Message>
+			<Command>if not exist &quot;..\bin\win\$(Platform)\$(Configuration)&quot; (
 echo Creating ..\bin\win\$(Platform)\$(Configuration)
-mkdir "..\bin\win\$(Platform)\$(Configuration)" &gt; nul
+mkdir &quot;..\bin\win\$(Platform)\$(Configuration)&quot; &gt; nul
 )
 
 copy $(TargetPath) ..\bin\win\$(Platform)\$(Configuration)
 
-if not exist "%25MAYA_PATH2011%25\bin\plug-ins" (
-echo Creating "%25MAYA_PATH2011%25\bin\plug-ins"
-mkdir "%25MAYA_PATH2011%25\bin\plug-ins" &gt; nul
+if not exist &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot; (
+echo Creating &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot;
+mkdir &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot; &gt; nul
 )
 
-copy "$(TargetDir)\COLLADAMaya.mll" "%25MAYA_PATH2011%25\bin\plug-ins"
+copy &quot;$(TargetDir)\COLLADAMaya.mll&quot; &quot;%25MAYA_PATH2011%25\bin\plug-ins&quot;
 
-if not exist "%25MAYA_PATH2011%25\scripts\others" (
-echo Creating "%25MAYA_PATH2011%25\scripts\others"
-mkdir "%25MAYA_PATH2011%25\scripts\others" &gt; nul
+if not exist &quot;%25MAYA_PATH2011%25\scripts\others&quot; (
+echo Creating &quot;%25MAYA_PATH2011%25\scripts\others&quot;
+mkdir &quot;%25MAYA_PATH2011%25\scripts\others&quot; &gt; nul
 )
 
-copy "$(ProjectDir)*.mel" "%25MAYA_PATH2011%25\scripts\others"
+copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011%25\scripts\others&quot;
 </Command>
-    </PostBuildEvent>
-    <BuildLog>
-      <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
-    </BuildLog>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <PreBuildEvent>
-      <Command>
+		</PostBuildEvent>
+		<BuildLog>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<PreBuildEvent>
+			<Command>
       </Command>
-    </PreBuildEvent>
-    <Midl>
-      <TargetEnvironment>X64</TargetEnvironment>
-    </Midl>
-    <ClCompile>
-      <Optimization>MaxSpeed</Optimization>
-      <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011_X64)\include;$(MAYA_PATH2011_X64)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;MLIBRARY_DONTUSE_MFC_MANIFEST;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
-      <WarningLevel>Level3</WarningLevel>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
-      <Version>1.3</Version>
-      <AdditionalLibraryDirectories>$(MAYA_PATH2011_X64)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
-      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <DataExecutionPrevention />
-      <TargetMachine>MachineX64</TargetMachine>
-    </Link>
-    <PostBuildEvent>
-      <Message>Copying plugin to Maya install</Message>
-      <Command>if not exist "..\bin\win\$(Platform)\$(Configuration)" (
+		</PreBuildEvent>
+		<Midl>
+			<TargetEnvironment>X64</TargetEnvironment>
+		</Midl>
+		<ClCompile>
+			<Optimization>MaxSpeed</Optimization>
+			<WholeProgramOptimization>true</WholeProgramOptimization>
+			<AdditionalIncludeDirectories>..\include;$(MAYA_PATH2011_X64)\include;$(MAYA_PATH2011_X64)\devkit\plug-ins;..\..\COLLADABaseUtils\include;..\..\COLLADAStreamWriter\include;..\..\Externals\Cg\include;..\..\COLLADASaxFrameworkLoader\include;..\..\COLLADASaxFrameworkLoader\include\generated15;..\..\COLLADAFramework\include;..\..\GeneratedSaxParser\include;..\..\Externals\LibXML\include;..\..\Externals\MayaDataModel\include;..\..\DAE2MA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_AFXDLL;_MBCS;NT_PLUGIN;REQUIRE_IOSTREAM;CM_EXPORTS;GLUT_NO_LIB_PRAGMA;GLUT_NO_WARNING_DISABLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;MLIBRARY_DONTUSE_MFC_MANIFEST;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<PrecompiledHeader>Use</PrecompiledHeader>
+			<PrecompiledHeaderFile>COLLADAMayaStableHeaders.h</PrecompiledHeaderFile>
+			<WarningLevel>Level3</WarningLevel>
+		</ClCompile>
+		<Link>
+			<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies>Foundation.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;OpenMayaUI.lib;cg.lib;cgGL.lib;OpenGL32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			<OutputFile>$(OutDir)$(ProjectName).mll</OutputFile>
+			<Version>1.3</Version>
+			<AdditionalLibraryDirectories>$(MAYA_PATH2011_X64)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+			<LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention/>
+			<TargetMachine>MachineX64</TargetMachine>
+		</Link>
+		<PostBuildEvent>
+			<Message>Copying plugin to Maya install</Message>
+			<Command>if not exist &quot;..\bin\win\$(Platform)\$(Configuration)&quot; (
 echo Creating ..\bin\win\$(Platform)\$(Configuration)
-mkdir "..\bin\win\$(Platform)\$(Configuration)" &gt; nul
+mkdir &quot;..\bin\win\$(Platform)\$(Configuration)&quot; &gt; nul
 )
 
 copy $(TargetPath) ..\bin\win\$(Platform)\$(Configuration)
 
-if not exist "%25MAYA_PATH2011_X64%25\bin\plug-ins" (
-echo Creating "%25MAYA_PATH2011_X64%25\bin\plug-ins"
-mkdir "%25MAYA_PATH2011_X64%25\bin\plug-ins" &gt; nul
+if not exist &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot; (
+echo Creating &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot;
+mkdir &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot; &gt; nul
 )
 
-copy "$(TargetDir)\COLLADAMaya.mll" "%25MAYA_PATH2011_X64%25\bin\plug-ins"
+copy &quot;$(TargetDir)\COLLADAMaya.mll&quot; &quot;%25MAYA_PATH2011_X64%25\bin\plug-ins&quot;
 
-if not exist "%25MAYA_PATH2011_X64%25\scripts\others" (
-echo Creating "%25MAYA_PATH2011_X64%25\scripts\others"
-mkdir "%25MAYA_PATH2011_X64%25\scripts\others" &gt; nul
+if not exist &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot; (
+echo Creating &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot;
+mkdir &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot; &gt; nul
 )
 
-copy "$(ProjectDir)*.mel" "%25MAYA_PATH2011_X64%25\scripts\others"
+copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011_X64%25\scripts\others&quot;
 </Command>
-    </PostBuildEvent>
-    <BuildLog>
-      <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
-    </BuildLog>
-  </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\src\COLLADAMayaAnimationClipExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAnimationCurves.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAnimationElement.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAnimationExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAnimationHelper.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAnimationKeys.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAnimationSampleCache.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAnimationTools.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaCameraExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaCgfxShaderIncludes.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaConsoleMain.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaControllerExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaDagHelper.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaDocumentExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaEffectExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaEffectTextureExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaExportOptions.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaAttributeParser.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaFileTranslator.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaGeometryExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaGeometryPolygonExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaHwShaderExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaImageExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaImportOptions.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaLightExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaLightProbeExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaLODExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaMaterialExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaPhysicsSceneExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaPhysicsExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaPhysXExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaPhysXXML.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaPrecompiledHeaders.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\src\COLLADAMayaReferenceManager.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaRotateHelper.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaSceneElement.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaSceneGraph.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaSetHelper.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaShaderFXShaderExporter.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaShaderHelper.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaSourceInput.cpp" />
-    <ClCompile Include="..\src\COLLADAMayaVisualSceneExporter.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\include\COLLADAMayaAnimationClipExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaAnimationCurves.h" />
-    <ClInclude Include="..\include\COLLADAMayaAnimationElement.h" />
-    <ClInclude Include="..\include\COLLADAMayaAnimationExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaAnimationHelper.h" />
-    <ClInclude Include="..\include\COLLADAMayaAnimationKeys.h" />
-    <ClInclude Include="..\include\COLLADAMayaAnimationSampleCache.h" />
-    <ClInclude Include="..\include\COLLADAMayaAnimationTools.h" />
-    <ClInclude Include="..\include\COLLADAMayaBaseController.h" />
-    <ClInclude Include="..\include\COLLADAMayaCameraExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaControllerExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaConversion.h" />
-    <ClInclude Include="..\include\COLLADAMayaDagHelper.h" />
-    <ClInclude Include="..\include\COLLADAMayaDocumentExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaEffectExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaEffectTextureExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaExportOptions.h" />
-    <ClInclude Include="..\include\COLLADAMayaAttributeParser.h" />
-    <ClInclude Include="..\include\COLLADAMayaFileTranslator.h" />
-    <ClInclude Include="..\include\COLLADAMayaGeometryExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaGeometryPolygonExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaHwShaderExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaImageExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaImportOptions.h" />
-    <ClInclude Include="..\include\COLLADAMayaLightExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaLightProbeExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaLODExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaMaterialExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaMorphController.h" />
-    <ClInclude Include="..\include\COLLADAMayaPhysicsSceneExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaPhysicsExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaPhysXExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaPhysXXML.h" />
-    <ClInclude Include="..\include\COLLADAMayaPlatform.h" />
-    <ClInclude Include="..\include\COLLADAMayaPolygonSource.h" />
-    <ClInclude Include="..\include\COLLADAMayaPrerequisites.h" />
-    <ClInclude Include="..\include\COLLADAMayaReferenceManager.h" />
-    <ClInclude Include="..\include\COLLADAMayaRotateHelper.h" />
-    <ClInclude Include="..\include\COLLADAMayaSceneElement.h" />
-    <ClInclude Include="..\include\COLLADAMayaSceneGraph.h" />
-    <ClInclude Include="..\include\COLLADAMayaSetHelper.h" />
-    <ClInclude Include="..\include\COLLADAMayaShaderFXShaderExporter.h" />
-    <ClInclude Include="..\include\COLLADAMayaShaderHelper.h" />
-    <ClInclude Include="..\include\COLLADAMayaSkinController.h" />
-    <ClInclude Include="..\include\COLLADAMayaSourceInput.h" />
-    <ClInclude Include="..\include\COLLADAMayaStableHeaders.h" />
-    <ClInclude Include="..\include\COLLADAMayaSyntax.h" />
-    <ClInclude Include="..\include\COLLADAMayaTangentPoint.h" />
-    <ClInclude Include="..\include\COLLADAMayaVisualSceneExporter.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\COLLADABaseUtils\scripts\COLLADABaseUtils.vcxproj">
-      <Project>{2c3c4869-d684-4981-98e7-6d9798b72145}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\COLLADAFramework\scripts\COLLADAFramework.vcxproj">
-      <Project>{9f164b41-40e0-4efa-a7c7-a89c12b4fb39}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\COLLADASaxFrameworkLoader\scripts\COLLADASaxFrameworkLoader.vcxproj">
-      <Project>{8628a8f8-bd50-4463-9ee7-f9118cba194a}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\COLLADAStreamWriter\scripts\COLLADAStreamWriter.vcxproj">
-      <Project>{eab66f01-60b5-43c9-b78d-a8b0b545a20b}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\dae2ma\scripts\dae2ma.vcxproj">
-      <Project>{305c4dd6-e327-49b2-a14a-dbf7e06401d3}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
+		</PostBuildEvent>
+		<BuildLog>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClCompile Include="..\src\COLLADAMayaAnimationClipExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAnimationCurves.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAnimationElement.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAnimationExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAnimationHelper.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAnimationKeys.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAnimationSampleCache.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAnimationTools.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaCameraExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaCgfxShaderIncludes.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaConsoleMain.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaControllerExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaDagHelper.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaDocumentExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaEffectExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaEffectTextureExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaExportOptions.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaAttributeParser.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaFileTranslator.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaGeometryExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaGeometryPolygonExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaHwShaderExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaImageExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaImportOptions.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaLightExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaLightProbeExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaLODExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaMaterialExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaPhysicsSceneExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaPhysicsExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaPhysXExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaPhysXXML.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaPrecompiledHeaders.cpp">
+			<PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+			<PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+			<PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+			<PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+		</ClCompile>
+		<ClCompile Include="..\src\COLLADAMayaReferenceManager.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaRotateHelper.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaSceneElement.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaSceneGraph.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaSetHelper.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaShaderFXShaderExporter.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaShaderHelper.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaSourceInput.cpp"/>
+		<ClCompile Include="..\src\COLLADAMayaVisualSceneExporter.cpp"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\include\COLLADAMayaAnimationClipExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAnimationCurves.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAnimationElement.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAnimationExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAnimationHelper.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAnimationKeys.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAnimationSampleCache.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAnimationTools.h"/>
+		<ClInclude Include="..\include\COLLADAMayaBaseController.h"/>
+		<ClInclude Include="..\include\COLLADAMayaCameraExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaControllerExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaConversion.h"/>
+		<ClInclude Include="..\include\COLLADAMayaDagHelper.h"/>
+		<ClInclude Include="..\include\COLLADAMayaDocumentExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaEffectExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaEffectTextureExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaExportOptions.h"/>
+		<ClInclude Include="..\include\COLLADAMayaAttributeParser.h"/>
+		<ClInclude Include="..\include\COLLADAMayaFileTranslator.h"/>
+		<ClInclude Include="..\include\COLLADAMayaGeometryExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaGeometryPolygonExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaHwShaderExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaImageExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaImportOptions.h"/>
+		<ClInclude Include="..\include\COLLADAMayaLightExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaLightProbeExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaLODExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaMaterialExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaMorphController.h"/>
+		<ClInclude Include="..\include\COLLADAMayaPhysicsSceneExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaPhysicsExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaPhysXExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaPhysXXML.h"/>
+		<ClInclude Include="..\include\COLLADAMayaPlatform.h"/>
+		<ClInclude Include="..\include\COLLADAMayaPolygonSource.h"/>
+		<ClInclude Include="..\include\COLLADAMayaPrerequisites.h"/>
+		<ClInclude Include="..\include\COLLADAMayaReferenceManager.h"/>
+		<ClInclude Include="..\include\COLLADAMayaRotateHelper.h"/>
+		<ClInclude Include="..\include\COLLADAMayaSceneElement.h"/>
+		<ClInclude Include="..\include\COLLADAMayaSceneGraph.h"/>
+		<ClInclude Include="..\include\COLLADAMayaSetHelper.h"/>
+		<ClInclude Include="..\include\COLLADAMayaShaderFXShaderExporter.h"/>
+		<ClInclude Include="..\include\COLLADAMayaShaderHelper.h"/>
+		<ClInclude Include="..\include\COLLADAMayaSkinController.h"/>
+		<ClInclude Include="..\include\COLLADAMayaSourceInput.h"/>
+		<ClInclude Include="..\include\COLLADAMayaStableHeaders.h"/>
+		<ClInclude Include="..\include\COLLADAMayaSyntax.h"/>
+		<ClInclude Include="..\include\COLLADAMayaTangentPoint.h"/>
+		<ClInclude Include="..\include\COLLADAMayaVisualSceneExporter.h"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\COLLADABaseUtils\scripts\COLLADABaseUtils.vcxproj">
+			<Project>{2c3c4869-d684-4981-98e7-6d9798b72145}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\COLLADAFramework\scripts\COLLADAFramework.vcxproj">
+			<Project>{9f164b41-40e0-4efa-a7c7-a89c12b4fb39}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\COLLADASaxFrameworkLoader\scripts\COLLADASaxFrameworkLoader.vcxproj">
+			<Project>{8628a8f8-bd50-4463-9ee7-f9118cba194a}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\COLLADAStreamWriter\scripts\COLLADAStreamWriter.vcxproj">
+			<Project>{eab66f01-60b5-43c9-b78d-a8b0b545a20b}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\dae2ma\scripts\dae2ma.vcxproj">
+			<Project>{305c4dd6-e327-49b2-a14a-dbf7e06401d3}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+	<ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 </Project>

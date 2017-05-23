@@ -71,21 +71,21 @@
 		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-		<OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 	</PropertyGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -134,7 +134,7 @@
 			<OutputFile>.\Win32_DLL_ASM_Debug/zlib.bsc</OutputFile>
 		</Bscmake>
 		<BuildLog>
-			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -182,7 +182,7 @@
 			<OutputFile>.\Win32_DLL_Release/zlib.bsc</OutputFile>
 		</Bscmake>
 		<BuildLog>
-			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -230,7 +230,7 @@
 			<OutputFile>.\Win32_DLL_ASM_Release/zlib.bsc</OutputFile>
 		</Bscmake>
 		<BuildLog>
-			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -264,7 +264,7 @@
 			<OutputFile>.\Win32_LIB_Release/zlib.bsc</OutputFile>
 		</Bscmake>
 		<BuildLog>
-			<Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemGroup>

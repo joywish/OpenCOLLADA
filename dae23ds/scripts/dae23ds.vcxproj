@@ -1,207 +1,207 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
-      <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-  </ItemGroup>
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>{06180FAB-1DCF-4e3a-AEF6-0506D0349F49}</ProjectGuid>
-    <RootNamespace>dae23ds</RootNamespace>
-    <Keyword>Win32Proj</Keyword>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{06180FAB-1DCF-4e3a-AEF6-0506D0349F49}</ProjectGuid>
+		<RootNamespace>dae23ds</RootNamespace>
+		<Keyword>Win32Proj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<CharacterSet>Unicode</CharacterSet>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+	<ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
-  </ImportGroup>
-  <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-    <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
-    <LinkIncremental>true</LinkIncremental>
-    <GenerateManifest>true</GenerateManifest>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-    <IntDir>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <PreBuildEvent>
-      <Command />
-    </PreBuildEvent>
-    <ClCompile>
-      <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;..\..\COLLADABaseUtils\include;..\..\COLLADABaseUtils\include\Math;..\..\COLLADAFramework\include;..\..\COLLADASaxFrameworkLoader\include;..\..\common\libBuffer\include;..\..\common\libftoa\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <MinimalRebuild>true</MinimalRebuild>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>DAE23dsStableHeaders.h</PrecompiledHeaderFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-    </ClCompile>
-    <Link>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Console</SubSystem>
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <DataExecutionPrevention />
-      <TargetMachine>MachineX86</TargetMachine>
-    </Link>
-    <PostBuildEvent>
-      <Command>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+		<Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<LinkIncremental>true</LinkIncremental>
+		<GenerateManifest>true</GenerateManifest>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<PreBuildEvent>
+			<Command/>
+		</PreBuildEvent>
+		<ClCompile>
+			<Optimization>Disabled</Optimization>
+			<AdditionalIncludeDirectories>..\include;..\..\COLLADABaseUtils\include;..\..\COLLADABaseUtils\include\Math;..\..\COLLADAFramework\include;..\..\COLLADASaxFrameworkLoader\include;..\..\common\libBuffer\include;..\..\common\libftoa\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MinimalRebuild>true</MinimalRebuild>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<PrecompiledHeader>Use</PrecompiledHeader>
+			<PrecompiledHeaderFile>DAE23dsStableHeaders.h</PrecompiledHeaderFile>
+			<WarningLevel>Level3</WarningLevel>
+			<DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+		</ClCompile>
+		<Link>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention/>
+			<TargetMachine>MachineX86</TargetMachine>
+		</Link>
+		<PostBuildEvent>
+			<Command>
       </Command>
-    </PostBuildEvent>
-    <BuildLog>
-      <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
-    </BuildLog>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <PreBuildEvent>
-      <Command />
-    </PreBuildEvent>
-    <ClCompile>
-      <AdditionalIncludeDirectories>..\include;..\..\COLLADABaseUtils\include;..\..\COLLADABaseUtils\include\Math;..\..\COLLADAFramework\include;..\..\COLLADASaxFrameworkLoader\include;..\..\common\libBuffer\include;..\..\common\libftoa\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>DAE23dsStableHeaders.h</PrecompiledHeaderFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat />
-    </ClCompile>
-    <Link>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
-      <SubSystem>Console</SubSystem>
-      <OptimizeReferences>true</OptimizeReferences>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <DataExecutionPrevention />
-      <TargetMachine>MachineX86</TargetMachine>
-    </Link>
-    <PostBuildEvent>
-      <Command>
+		</PostBuildEvent>
+		<BuildLog>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<PreBuildEvent>
+			<Command/>
+		</PreBuildEvent>
+		<ClCompile>
+			<AdditionalIncludeDirectories>..\include;..\..\COLLADABaseUtils\include;..\..\COLLADABaseUtils\include\Math;..\..\COLLADAFramework\include;..\..\COLLADASaxFrameworkLoader\include;..\..\common\libBuffer\include;..\..\common\libftoa\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;IWILLNOTUSEASSERTSOUTSIDETHISSCOPE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+			<PrecompiledHeader>Use</PrecompiledHeader>
+			<PrecompiledHeaderFile>DAE23dsStableHeaders.h</PrecompiledHeaderFile>
+			<WarningLevel>Level3</WarningLevel>
+			<DebugInformationFormat/>
+		</ClCompile>
+		<Link>
+			<GenerateDebugInformation>false</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<OptimizeReferences>true</OptimizeReferences>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention/>
+			<TargetMachine>MachineX86</TargetMachine>
+		</Link>
+		<PostBuildEvent>
+			<Command>
       </Command>
-    </PostBuildEvent>
-    <BuildLog>
-      <Path>E:\oss\OpenCOLLADA\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
-    </BuildLog>
-  </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\include\DAE23dsBaseWriter.h" />
-    <ClInclude Include="..\include\DAE23dsBitSet.h" />
-    <ClInclude Include="..\include\DAE23dsChunkIDs.h" />
-    <ClInclude Include="..\include\DAE23dsMaterialsBase.h" />
-    <ClInclude Include="..\include\DAE23dsMaterialsLengthCalculator.h" />
-    <ClInclude Include="..\include\DAE23dsMaterialsWriter.h" />
-    <ClInclude Include="..\include\DAE23dsMeshAccessor.h" />
-    <ClInclude Include="..\include\DAE23dsMeshBase.h" />
-    <ClInclude Include="..\include\DAE23dsMeshHandler.h" />
-    <ClInclude Include="..\include\DAE23dsMeshLengthCalculator.h" />
-    <ClInclude Include="..\include\DAE23dsMeshSpliter.h" />
-    <ClInclude Include="..\include\DAE23dsMeshSpliterDumper.h" />
-    <ClInclude Include="..\include\DAE23dsMeshSpliter_impl.h" />
-    <ClInclude Include="..\include\DAE23dsMeshWriter.h" />
-    <ClInclude Include="..\include\DAE23dsPrerequisites.h" />
-    <ClInclude Include="..\include\DAE23dsSceneGraphBase.h" />
-    <ClInclude Include="..\include\DAE23dsSceneGraphHandler.h" />
-    <ClInclude Include="..\include\DAE23dsSceneGraphWriter.h" />
-    <ClInclude Include="..\include\DAE23dsStableHeaders.h" />
-    <ClInclude Include="..\include\DAE23dsTriangle.h" />
-    <ClInclude Include="..\include\DAE23dsWriter.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\src\DAE23dsBaseWriter.cpp" />
-    <ClCompile Include="..\src\DAE23dsBitSet.cpp" />
-    <ClCompile Include="..\src\DAE23dsMaterialsBase.cpp" />
-    <ClCompile Include="..\src\DAE23dsMaterialsLengthCalculator.cpp" />
-    <ClCompile Include="..\src\DAE23dsMaterialsWriter.cpp" />
-    <ClCompile Include="..\src\DAE23dsMeshAccessor.cpp" />
-    <ClCompile Include="..\src\DAE23dsMeshBase.cpp" />
-    <ClCompile Include="..\src\DAE23dsMeshHandler.cpp" />
-    <ClCompile Include="..\src\DAE23dsMeshLengthCalculator.cpp" />
-    <ClCompile Include="..\src\DAE23dsMeshSpliterDumper.cpp" />
-    <ClCompile Include="..\src\DAE23dsMeshWriter.cpp" />
-    <ClCompile Include="..\src\DAE23dsPrecompiledHeaders.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DAE23dsStableHeaders.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DAE23dsStableHeaders.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\src\DAE23dsSceneGraphBase.cpp" />
-    <ClCompile Include="..\src\DAE23dsSceneGraphHandler.cpp" />
-    <ClCompile Include="..\src\DAE23dsSceneGraphWriter.cpp" />
-    <ClCompile Include="..\src\DAE23dsWriter.cpp" />
-    <ClCompile Include="..\src\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\COLLADABaseUtils\scripts\COLLADABaseUtils.vcxproj">
-      <Project>{2c3c4869-d684-4981-98e7-6d9798b72145}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\COLLADAFramework\scripts\COLLADAFramework.vcxproj">
-      <Project>{9f164b41-40e0-4efa-a7c7-a89c12b4fb39}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\COLLADASaxFrameworkLoader\scripts\COLLADASaxFrameworkLoader.vcxproj">
-      <Project>{8628a8f8-bd50-4463-9ee7-f9118cba194a}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\common\libBuffer\scripts\libBuffer.vcxproj">
-      <Project>{d1d50de5-1c1d-4322-b076-8b223a5984a4}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\common\libftoa\scripts\libftoa.vcxproj">
-      <Project>{12bbef01-c49c-4de5-b9c9-8e5bd3f4b0ab}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Externals\expat\lib\expat_static.vcxproj">
-      <Project>{6e55ca53-aaab-493d-a2bf-9d40737803fc}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Externals\LibXML\scripts\LibXML.vcxproj">
-      <Project>{d7f466f4-2aea-4648-be09-024c887bc157}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Externals\MathMLSolver\scripts\MathMLSolver.vcxproj">
-      <Project>{f1defc38-6aa9-4799-983b-96610117caf7}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Externals\pcre\scripts\pcre.vcxproj">
-      <Project>{71a48a24-8603-49fb-9458-cb4e97309378}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\GeneratedSaxParser\scripts\GeneratedSaxParser.vcxproj">
-      <Project>{0b6c3fea-0065-44d2-a69a-28f810a4f2af}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
+		</PostBuildEvent>
+		<BuildLog>
+			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+		</BuildLog>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClInclude Include="..\include\DAE23dsBaseWriter.h"/>
+		<ClInclude Include="..\include\DAE23dsBitSet.h"/>
+		<ClInclude Include="..\include\DAE23dsChunkIDs.h"/>
+		<ClInclude Include="..\include\DAE23dsMaterialsBase.h"/>
+		<ClInclude Include="..\include\DAE23dsMaterialsLengthCalculator.h"/>
+		<ClInclude Include="..\include\DAE23dsMaterialsWriter.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshAccessor.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshBase.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshHandler.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshLengthCalculator.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshSpliter.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshSpliterDumper.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshSpliter_impl.h"/>
+		<ClInclude Include="..\include\DAE23dsMeshWriter.h"/>
+		<ClInclude Include="..\include\DAE23dsPrerequisites.h"/>
+		<ClInclude Include="..\include\DAE23dsSceneGraphBase.h"/>
+		<ClInclude Include="..\include\DAE23dsSceneGraphHandler.h"/>
+		<ClInclude Include="..\include\DAE23dsSceneGraphWriter.h"/>
+		<ClInclude Include="..\include\DAE23dsStableHeaders.h"/>
+		<ClInclude Include="..\include\DAE23dsTriangle.h"/>
+		<ClInclude Include="..\include\DAE23dsWriter.h"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\src\DAE23dsBaseWriter.cpp"/>
+		<ClCompile Include="..\src\DAE23dsBitSet.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMaterialsBase.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMaterialsLengthCalculator.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMaterialsWriter.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMeshAccessor.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMeshBase.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMeshHandler.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMeshLengthCalculator.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMeshSpliterDumper.cpp"/>
+		<ClCompile Include="..\src\DAE23dsMeshWriter.cpp"/>
+		<ClCompile Include="..\src\DAE23dsPrecompiledHeaders.cpp">
+			<PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+			<PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DAE23dsStableHeaders.h</PrecompiledHeaderFile>
+			<PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+			<PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DAE23dsStableHeaders.h</PrecompiledHeaderFile>
+		</ClCompile>
+		<ClCompile Include="..\src\DAE23dsSceneGraphBase.cpp"/>
+		<ClCompile Include="..\src\DAE23dsSceneGraphHandler.cpp"/>
+		<ClCompile Include="..\src\DAE23dsSceneGraphWriter.cpp"/>
+		<ClCompile Include="..\src\DAE23dsWriter.cpp"/>
+		<ClCompile Include="..\src\main.cpp"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\COLLADABaseUtils\scripts\COLLADABaseUtils.vcxproj">
+			<Project>{2c3c4869-d684-4981-98e7-6d9798b72145}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\COLLADAFramework\scripts\COLLADAFramework.vcxproj">
+			<Project>{9f164b41-40e0-4efa-a7c7-a89c12b4fb39}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\COLLADASaxFrameworkLoader\scripts\COLLADASaxFrameworkLoader.vcxproj">
+			<Project>{8628a8f8-bd50-4463-9ee7-f9118cba194a}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\common\libBuffer\scripts\libBuffer.vcxproj">
+			<Project>{d1d50de5-1c1d-4322-b076-8b223a5984a4}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\common\libftoa\scripts\libftoa.vcxproj">
+			<Project>{12bbef01-c49c-4de5-b9c9-8e5bd3f4b0ab}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Externals\expat\lib\expat_static.vcxproj">
+			<Project>{6e55ca53-aaab-493d-a2bf-9d40737803fc}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Externals\LibXML\scripts\LibXML.vcxproj">
+			<Project>{d7f466f4-2aea-4648-be09-024c887bc157}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Externals\MathMLSolver\scripts\MathMLSolver.vcxproj">
+			<Project>{f1defc38-6aa9-4799-983b-96610117caf7}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Externals\pcre\scripts\pcre.vcxproj">
+			<Project>{71a48a24-8603-49fb-9458-cb4e97309378}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+		<ProjectReference Include="..\..\GeneratedSaxParser\scripts\GeneratedSaxParser.vcxproj">
+			<Project>{0b6c3fea-0065-44d2-a69a-28f810a4f2af}</Project>
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		</ProjectReference>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+	<ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 </Project>
