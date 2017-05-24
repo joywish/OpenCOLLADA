@@ -51,7 +51,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{42
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "collada", "collada", "{CF281178-8CDA-47D9-8A41-C76A6C2F5FBE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "collada_plugin", "collada_plugin", "{8BB6FE87-C8F6-470F-8161-7480F79B5909}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ide_plugin", "ide_plugin", "{8BB6FE87-C8F6-470F-8161-7480F79B5909}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
