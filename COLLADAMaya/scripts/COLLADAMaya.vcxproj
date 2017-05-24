@@ -66,26 +66,26 @@
 		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<GenerateManifest>true</GenerateManifest>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
 		<GenerateManifest>true</GenerateManifest>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<GenerateManifest>true</GenerateManifest>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-		<OutDir>$(SolutionDir)\..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
-		<IntDir>$(SolutionDir)\..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
+		<OutDir>$(SolutionDir)..\..\_out\$(SolutionName)\$(Configuration).$(Platform)\</OutDir>
+		<IntDir>$(SolutionDir)..\..\_out\$(SolutionName)\_int\$(ProjectName)_$(Configuration).$(Platform)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
 		<GenerateManifest>true</GenerateManifest>
 	</PropertyGroup>
@@ -142,7 +142,7 @@ copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011%25\scripts\others&quo
 </Command>
 		</PostBuildEvent>
 		<BuildLog>
-			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -202,7 +202,7 @@ copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011_X64%25\scripts\others
 </Command>
 		</PostBuildEvent>
 		<BuildLog>
-			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -265,7 +265,7 @@ copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011%25\scripts\others&quo
 </Command>
 		</PostBuildEvent>
 		<BuildLog>
-			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -324,7 +324,7 @@ copy &quot;$(ProjectDir)*.mel&quot; &quot;%25MAYA_PATH2011_X64%25\scripts\others
 </Command>
 		</PostBuildEvent>
 		<BuildLog>
-			<Path>$(SolutionDir)\..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
+			<Path>$(SolutionDir)..\..\_out\$(SolutionName)\log\$(MSBuildProjectName).log</Path>
 		</BuildLog>
 	</ItemDefinitionGroup>
 	<ItemGroup>
